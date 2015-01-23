@@ -1,0 +1,16 @@
+
+config.js
+----------------
+common/common-1.js
+app.js
+config.js
+common/common-2.js
+
+module-1/init.js
+----------------
+module-1/init.js
+
+module-2/init.js
+----------------
+module-2/dep.js
+module-2/init.js
