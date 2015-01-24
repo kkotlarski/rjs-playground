@@ -5,11 +5,14 @@
 </head>
 <body>
 	<p>Open console and play...</p>
-	<!--<script>
+	<!-- <script>
 		var require = {
-			deps: ['common/404']
+			deps: ['common/404'],
+			shim: {
+				'common/404': ['config']
+			}
 		};
-	</script>-->
+	</script> -->
 	<script src="node_modules/requirejs/require.js" data-main="js/config"></script>
 	<!-- <script src="node_modules/requirejs/require.js" data-main="build/dist/build"></script> -->
 	<!-- <script src="node_modules/requirejs/require.js" data-main="build/dist-all/build"></script> -->
